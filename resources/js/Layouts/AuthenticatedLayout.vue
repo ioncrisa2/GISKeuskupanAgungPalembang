@@ -32,6 +32,15 @@ const showingNavigationDropdown = ref(false);
                                 <NavLink :href="route('dashboard')" :active="route().current('dashboard')">
                                     Dashboard
                                 </NavLink>
+                                <NavLink :href="route('dekanat.index')" :active="route().current('dekanat.*')">
+                                    Dekanat
+                                </NavLink>
+                                <NavLink :href="route('paroki.index')" :active="route().current('paroki.*')">
+                                    Dekanat
+                                </NavLink>
+                                <NavLink :href="route('stasi.index')" :active="route().current('stasi.*')">
+                                    Dekanat
+                                </NavLink>
                             </div>
                         </div>
 
